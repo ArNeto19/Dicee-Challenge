@@ -1,6 +1,6 @@
  .container {
-  width: 90%;
   margin: auto;
+  width: 70%;
   text-align: center;
 }
 
@@ -14,12 +14,11 @@ body {
 }
 
 
-
 h1 {
-  margin: 30px;
+  margin: 3% 7%;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
 }
 
@@ -29,10 +28,10 @@ h1 {
 }
 
 h2 {
-  margin: 30px;
+  margin: 30px 3% 20px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #4ECCA3;
   display: none;
 }
@@ -52,18 +51,5 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-  font-size: 1.5rem;
-}
-
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 8rem;}
-
-  h2 {
-    font-size: 5rem;}
-
-    img {
-      width: 100%;
-    }
+  font-size: 1.2rem;
 }
