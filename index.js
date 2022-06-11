@@ -14,6 +14,6 @@ function diceeRoll() {
     document.querySelector(".start-btn").innerText = "Draw!"
   }
 
-  document.querySelector(".refresh-btn").style.display="inherit"
+  document.querySelector("h2").style.display="inherit"
 
 };
