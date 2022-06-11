@@ -1,10 +1,9 @@
-var randomNumber1 = Math.floor(Math.random() * 7);
-var randomNumber2 = Math.floor(Math.random() * 7);
-
-
 function diceeRoll() {
 
-    if (randomNumber1 === 1) {
+  let randomNumber1 = Math.floor(Math.random() * 7);
+  let randomNumber2 = Math.floor(Math.random() * 7);
+
+  if (randomNumber1 === 1) {
     document.querySelector(".img1").setAttribute('src', 'images/dice1.png')
   } else if (randomNumber1 === 2) {
     document.querySelector(".img1").setAttribute('src', 'images/dice2.png')
